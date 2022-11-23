@@ -1,14 +1,20 @@
 import React from "react";
 import "./Landing.css";
+
 import { Link } from "react-router-dom";
 
+import { BsFacebook } from "react-icons/bs";
+import { FaGlobeAfrica } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { BsTwitter } from "react-icons/bs";
+import { IoLocationSharp } from "react-icons/bs";
 
 
 
 export default function Landing() {
   const myStyles = {
     backgroundImage:
-      "url('https://moringaschool.com/wp-content/uploads/2022/04/about-us-min.png')",
+      "url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvbmNlcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60')",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
@@ -19,16 +25,15 @@ export default function Landing() {
     <div className="container-fluid" style={myStyles}>
       <div className="landingview">
         <div className="landingviewpage">
-          <h1>Moringa Community</h1>
+          <h1></h1>
           <p>
-            Connect with the community to find answers, ask questions, build
-            skills, and accelerate your digital transformation with the Moringa
-            Community.
+         
           </p>
           <div className="col-3">
+          <IoLocationSharp />
             <Link to="/login">
               <button className="btn btn-primary p-0 w-100" type="submit">
-                LOGIN
+                RSVP
               </button>
             </Link>
           </div>
@@ -41,69 +46,51 @@ export default function Landing() {
           <div className="part-heading">
             <h1>Our Partners</h1>
           </div>
-          {/* <div className="partners-png">
+          <div className="partners-png">
             <div className="im">
-              <img className="image" src={`${mastercard}`} alt="mastercard" />
-            </div>{' '}
-            <div className="im">
-              <img className="image" src={`${safaricom}`} alt="saf-logo" />
+              <img className="image" src={`${}`} alt="mastercard" />
             </div>
             <div className="im">
-              <img className="image" src={`${sanlam}`} alt="sanlam" />
-            </div>{' '}
-            <div className="im">
-              <img
-                className="image"
-                src={`${microsoft}`}
-                alt="microsoft"
-                style={{ color: '#fff' }}
-              />
-            </div>{' '}
-            <div className="im">
-              <img className="image" src={`${i_click}`} alt="i_click" />
-            </div>{' '}
-            <div className="im">
-              <img className="image" src={`${adrian}`} alt="adrian" />
-            </div>{' '}
-            <div className="im">
-              <img className="image" src={`${i_talanta}`} alt="i_talanta" />
-            </div>{' '}
-            <div className="im">
-              <img className="image" src={`${grey}`} alt="grey" />
-            </div>{' '}
-            <div className="im">
-              <img className="image" src={`${andela}`} alt="andela" />
-            </div>{' '}
-            <div className="im">
-              <img className="image" src={`${dalberg}`} alt="dalberg" />
-            </div>{' '}
-            <div className="im">
-              <img className="image" src={`${cybertek}`} alt="cybertek" />
+              <img className="image" src={`${ }`} alt="saf-logo" />
             </div>
-          </div> */}
+            <div className="im">
+              <img className="image" src={`${}`} alt="sanlam" />
+            </div>
+         
+            <div className="im">
+              <img className="image" src={`${ }`} alt="i_click" />
+            </div>
+            <div className="im">
+              <img className="image" src={`${ }`} alt="adrian" />
+            </div>
+            <div className="im">
+              <img className="image" src={`${ }`} alt="i_talanta" />
+            </div>
+            
+          </div>
         </div>
       </div>
       {/* partners section */}
       {/* footersection */}
       <footer>
         <div className="foot">
-          {/* <Link to="" id="linkf">
-            <FontAwesomeIcon icon="fa-brands fa-twitter" />
+          <Link to="" id="linkf">
+            <BsTwitter />
             SDA church,JKUAT
           </Link>
 
           <Link to="" id="linkf">
-            <FontAwesomeIcon icon="fa-brands fa-instagram" />
+            <FaInstagramSquare />
             SDA Church,JKUAT
           </Link>
           <Link to="" id="linkf">
-            <FontAwesomeIcon icon="fa-brands fa-facebook" />
+            <BsFacebook />
             SDA Church,JKUAT
           </Link>
-          <Link to="" id="linkf">
-            <FontAwesomeIcon icon="fa-regular fa-globe" />
+          <Link to="https://www.jkusdachurch.org/" id="linkf">
+            <FaGlobeAfrica />
             JKUSDA Church
-          </Link> */}
+          </Link>
         </div>
       </footer>
     </div>
