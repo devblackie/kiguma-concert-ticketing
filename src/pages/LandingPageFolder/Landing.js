@@ -1,26 +1,19 @@
-import React from 'react'
-import './Landing.css'
-import { Link } from 'react-router-dom'
-// import { useNavigate } from "react-router-dom";
+import React from "react";
+import "./Landing.css";
+import { Link } from "react-router-dom";
 
 
-
-import TwitterIcon from '@mui/icons-material/Twitter'
-import InstagramIcon from '@mui/icons-material/Instagram'
-import FacebookIcon from '@mui/icons-material/Facebook'
 
 
 export default function Landing() {
   const myStyles = {
     backgroundImage:
       "url('https://moringaschool.com/wp-content/uploads/2022/04/about-us-min.png')",
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-    backgroundAttachment: 'fixed',
-  }
-
-
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
+    backgroundAttachment: "fixed",
+  };
 
   return (
     <div className="container-fluid" style={myStyles}>
@@ -34,13 +27,10 @@ export default function Landing() {
           </p>
           <div className="col-3">
             <Link to="/login">
-            <button className="btn btn-primary p-0 w-100" type="submit" 
-         
-         >
-           LOGIN
-         </button>
+              <button className="btn btn-primary p-0 w-100" type="submit">
+                LOGIN
+              </button>
             </Link>
-        
           </div>
         </div>
         <div className="landingviewpage"></div>
@@ -49,7 +39,7 @@ export default function Landing() {
       <div className="card-body" id="partners">
         <div className="">
           <div className="part-heading">
-            <h1>Our Partners</h1>{' '}
+            <h1>Our Partners</h1>
           </div>
           {/* <div className="partners-png">
             <div className="im">
@@ -97,25 +87,25 @@ export default function Landing() {
       {/* footersection */}
       <footer>
         <div className="foot">
-          <Link to="" id="linkf">
-          <FontAwesomeIcon icon="fa-brands fa-twitter" />
-            Moringa School
+          {/* <Link to="" id="linkf">
+            <FontAwesomeIcon icon="fa-brands fa-twitter" />
+            SDA church,JKUAT
           </Link>
 
           <Link to="" id="linkf">
-            <InstagramIcon />
-            Moringa School
+            <FontAwesomeIcon icon="fa-brands fa-instagram" />
+            SDA Church,JKUAT
           </Link>
           <Link to="" id="linkf">
-            <FacebookIcon />
-            Moringa School
+            <FontAwesomeIcon icon="fa-brands fa-facebook" />
+            SDA Church,JKUAT
           </Link>
           <Link to="" id="linkf">
-            <LinkedInIcon />
-            Moringa School
-          </Link>
+            <FontAwesomeIcon icon="fa-regular fa-globe" />
+            JKUSDA Church
+          </Link> */}
         </div>
       </footer>
     </div>
-  )
+  );
 }

@@ -1,11 +1,11 @@
-
-import './App.css';
-import Landing from './pages/LandingPageFolder/Landing';
+import "./App.css";
+import Landing from "./pages/LandingPageFolder/Landing";
 
 function App() {
   return (
     <div className="App">
- <Landing />
+      welcome
+      <Landing />
     </div>
   );
 }
