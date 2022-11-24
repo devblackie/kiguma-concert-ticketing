@@ -4,7 +4,7 @@ import Landing from "./pages/LandingPageFolder/Landing";
 function App() {
   return (
     <div className="App">
-      welcome
+      
       <Landing />
     </div>
   );

@@ -1,20 +1,20 @@
 import React from "react";
 import "./Landing.css";
-
+// import kiguma from "../../components/images/Kiguma mission poster.jpg"
 import { Link } from "react-router-dom";
 
 import { BsFacebook } from "react-icons/bs";
 import { FaGlobeAfrica } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
-import { IoLocationSharp } from "react-icons/bs";
+
 
 
 
 export default function Landing() {
   const myStyles = {
-    backgroundImage:
-      "url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvbmNlcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60')",
+    // backgroundImage:
+    //   "url('kiguma.jpg')",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
@@ -23,14 +23,15 @@ export default function Landing() {
 
   return (
     <div className="container-fluid" style={myStyles}>
+      <span></span>
       <div className="landingview">
         <div className="landingviewpage">
           <h1></h1>
           <p>
          
           </p>
-          <div className="col-3">
-          <IoLocationSharp />
+          <div className="button">
+          
             <Link to="/login">
               <button className="btn btn-primary p-0 w-100" type="submit">
                 RSVP
@@ -42,7 +43,7 @@ export default function Landing() {
       </div>
       {/* partners section */}
       <div className="card-body" id="partners">
-        <div className="">
+        {/* <div className="">
           <div className="part-heading">
             <h1>Our Partners</h1>
           </div>
@@ -68,11 +69,11 @@ export default function Landing() {
             </div>
             
           </div>
-        </div>
+        </div> */}
       </div>
       {/* partners section */}
       {/* footersection */}
-      <footer>
+      {/* <footer>
         <div className="foot">
           <Link to="" id="linkf">
             <BsTwitter />
@@ -92,7 +93,7 @@ export default function Landing() {
             JKUSDA Church
           </Link>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
