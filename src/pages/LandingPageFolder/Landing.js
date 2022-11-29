@@ -1,7 +1,8 @@
 import React from "react";
 import "./Landing.css";
-// import kiguma from "../../components/images/Kiguma mission poster.jpg"
+import kiguma from "./images/Kigumoposter.png";
 import { Link } from "react-router-dom";
+import Timer from "../../components/timer/Timer"
 
 import { BsFacebook } from "react-icons/bs";
 import { FaGlobeAfrica } from "react-icons/fa";
@@ -9,37 +10,25 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 
 
-
-
 export default function Landing() {
-  const myStyles = {
-    // backgroundImage:
-    //   "url('kiguma.jpg')",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
-    backgroundAttachment: "fixed",
-  };
-
   return (
-    <div className="container-fluid" style={myStyles}>
+    <div className="container-fluid" id="fullpage">
       <span></span>
       <div className="landingview">
         <div className="landingviewpage">
-          <h1></h1>
-          <p>
+          <img src={`${kiguma}`} />
          
-          </p>
-          <div className="button">
-          
+        </div>
+        <div className="landingviewpage">
+<Timer />
+        <div className="ticket" id="bookbutton">
             <Link to="/login">
-              <button className="btn btn-primary p-0 w-100" type="submit">
-                RSVP
+              <button className="" type="submit">
+                book ticket
               </button>
             </Link>
           </div>
         </div>
-        <div className="landingviewpage"></div>
       </div>
       {/* partners section */}
       <div className="card-body" id="partners">
