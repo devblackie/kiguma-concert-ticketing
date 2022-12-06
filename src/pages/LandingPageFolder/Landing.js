@@ -2,13 +2,13 @@ import React from "react";
 import "./Landing.css";
 import kiguma from "./images/Kigumoposter.png";
 import { Link } from "react-router-dom";
-import Timer from "../../components/timer/Timer"
+import Timer from "../../components/timer/Timer";
 
 import { BsFacebook } from "react-icons/bs";
 import { FaGlobeAfrica } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
-
+import Choir from "../../components/choirs/Choir";
 
 export default function Landing() {
   return (
@@ -17,11 +17,10 @@ export default function Landing() {
       <div className="landingview">
         <div className="landingviewpage">
           <img src={`${kiguma}`} />
-         
         </div>
         <div className="landingviewpage">
-<Timer />
-        <div className="ticket" id="bookbutton">
+          <Timer />
+          <div className="ticket" id="bookbutton">
             <Link to="/login">
               <button className="" type="submit">
                 book ticket
@@ -32,6 +31,7 @@ export default function Landing() {
       </div>
       {/* partners section */}
       <div className="card-body" id="partners">
+        <Choir />
         {/* <div className="">
           <div className="part-heading">
             <h1>Our Partners</h1>

@@ -9,7 +9,7 @@
   }
   
   .timer {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(192, 192, 192,0.2);
     display: inline-block;
     margin-top: 25px;
     padding: 10px;
@@ -18,7 +18,7 @@
   }
   
   .spec {
-    width: 25%;
+    width:  25%;
     float: left;
   }
   
@@ -28,7 +28,7 @@
     padding: 10px;
   }
   
-  .col-4:last-child .box {
+  .spec:last-child .box {
     border-right-color: transparent;
   }
   
