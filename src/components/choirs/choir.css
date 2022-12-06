@@ -1,16 +1,38 @@
 .choirs {
-  min-height: 100%;
-  display: grid; 
-  place-items: center; 
-  border: 2px solid red;
+  height: 30vh;
+  /* min-height: 100%; */
+  position: static;
+  /* display: grid; 
+  place-items: center;  */
+  /* border: 2px solid red; */
   margin-top: 20px;
-  /* display: flex; */
-  /* flex: 1 1 30rem; */
+  /* margin-left: rem; */
+  margin-right: 35rem;
+  overflow: hidden;
+  
+
+  /* border: 2px solid red; */
+  z-index: 13;
+  /* background-color: rgba(192, 192, 192,0.9); */
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 40vh;
+  /* flex: .5 .5 20rem; */
+  padding: 2rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  
+  flex: 1 1 30rem;
 
 }
 .choirs h2 {
   font-family: "Caveat", cursive;
-  color: red;
+  color: white;
 }
 #slideshow {
   display: flex;
@@ -22,7 +44,7 @@
   padding: 10px;
   /* border: 2px solid red; */
 }
-#slideshow::before,
+/* #slideshow::before,
 #slideshow::after {
   background: linear-gradient(
     to right,
@@ -34,15 +56,11 @@
   position: absolute;
   width: 15%;
   z-index: 17;
-}
+} */
 #slideshow::after {
   left: 0;
   top: 0;
-  /* transform: rotateZ("180deg");
-  -webkit-transform: rotateZ("180deg");
-  -moz-transform: rotateZ("180deg");
-  -ms-transform: rotateZ("180deg");
-  -o-transform: rotateZ("180deg"); */
+
 }
 #slideshow::before {
   right: 0;

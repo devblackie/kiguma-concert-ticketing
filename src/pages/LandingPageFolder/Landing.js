@@ -32,33 +32,6 @@ export default function Landing() {
       {/* partners section */}
       <div className="card-body" id="partners">
         <Choir />
-        {/* <div className="">
-          <div className="part-heading">
-            <h1>Our Partners</h1>
-          </div>
-          <div className="partners-png">
-            <div className="im">
-              <img className="image" src={`${}`} alt="mastercard" />
-            </div>
-            <div className="im">
-              <img className="image" src={`${ }`} alt="saf-logo" />
-            </div>
-            <div className="im">
-              <img className="image" src={`${}`} alt="sanlam" />
-            </div>
-         
-            <div className="im">
-              <img className="image" src={`${ }`} alt="i_click" />
-            </div>
-            <div className="im">
-              <img className="image" src={`${ }`} alt="adrian" />
-            </div>
-            <div className="im">
-              <img className="image" src={`${ }`} alt="i_talanta" />
-            </div>
-            
-          </div>
-        </div> */}
       </div>
       {/* partners section */}
       {/* footersection */}
