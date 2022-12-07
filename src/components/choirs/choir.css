@@ -2,18 +2,12 @@
   height: 30vh;
   /* min-height: 100%; */
   position: static;
-  /* display: grid; 
-  place-items: center;  */
-  /* border: 2px solid red; */
   margin-top: 20px;
-  /* margin-left: rem; */
-  margin-right: 35rem;
+    margin-right: 35rem;
   overflow: hidden;
-  
-
   /* border: 2px solid red; */
   z-index: 13;
-  /* background-color: rgba(192, 192, 192,0.9); */
+  /* background-color: rgba(192, 192, 192,0.7); */
 
   
   display: flex;

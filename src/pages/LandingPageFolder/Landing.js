@@ -20,13 +20,13 @@ export default function Landing() {
         </div>
         <div className="landingviewpage">
           <Timer />
-          <div className="ticket" id="bookbutton">
+          
             <Link to="/login">
               <button className="" type="submit">
-                book ticket
+                RSVP
               </button>
             </Link>
-          </div>
+    
         </div>
       </div>
       {/* partners section */}
@@ -35,7 +35,7 @@ export default function Landing() {
       </div>
       {/* partners section */}
       {/* footersection */}
-      {/* <footer>
+      <footer>
         <div className="foot">
           <Link to="" id="linkf">
             <BsTwitter />
@@ -55,7 +55,7 @@ export default function Landing() {
             JKUSDA Church
           </Link>
         </div>
-      </footer> */}
+      </footer>
     </div>
   );
 }

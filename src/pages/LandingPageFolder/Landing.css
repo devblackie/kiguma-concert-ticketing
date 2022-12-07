@@ -59,11 +59,17 @@ p {
   width: 100vw;
   height: 90vh;
 }
-.landingviewpage .ticket {
-  background: orange;
+.landingviewpage button {
+  margin-top: 3rem;
   color: black;
-  border: 4px solid white;
+  border: 2px solid orange;
+  border-radius: .5rem;
+ background: orange;
+ letter-spacing: 2px;
+ font-family: 'Kalam', cursive;
+ font-weight: 500;
 }
+
 /* ------components in landing page end------- */
 #partners {
   /*border: 2px solid red;*/
@@ -80,7 +86,7 @@ p {
 
 }
 /* -----choirs section end */
-/* .foot{
+.foot{
   display: flex;
   justify-content: space-evenly;
   padding: 6px;
@@ -93,10 +99,13 @@ p {
   z-index: 1000;
   background-color: #001E2A;
   z-index: 15;
+
+
+  
   
 }
 footer {
-  z-index: 15;
+  z-index: 1;
   background-color: #001E2A;
   
   
@@ -111,7 +120,7 @@ footer {
   color: #fff;
   font-size: medium;
   font-weight: 600;
-} */
+} 
 #footer {
   display: flex;
   align-items: flex-start;
