@@ -63,11 +63,11 @@ p {
   margin-top: 3rem;
   color: black;
   border: 2px solid orange;
-  border-radius: .5rem;
- background: orange;
- letter-spacing: 2px;
- font-family: 'Kalam', cursive;
- font-weight: 500;
+  border-radius: 0.5rem;
+  background: orange;
+  letter-spacing: 2px;
+  font-family: "Kalam", cursive;
+  font-weight: 500;
 }
 
 /* ------components in landing page end------- */
@@ -79,50 +79,52 @@ p {
   justify-content: center;
   align-items: center;
   /*width: 50vw;
-  */height: 40vh;
+  */
+  height: 40vh;
   /*padding: 2rem;*/
   border-radius: 0.5rem;
   color: #fff;
-
 }
 /* -----choirs section end */
-.foot{
+footer {
+  z-index: 1;
+  background-color: #001e2a;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+.foot {
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   padding: 6px;
-  margin: 40;
   outline: none;
   text-align: center;
   font-size: 40px;
   padding-top: 25px;
-  color: #fa521c;
   z-index: 1000;
-  background-color: #001E2A;
   z-index: 15;
-
-
-  
-  
+  /* border: 2px solid #fa521c; */
 }
-footer {
-  z-index: 1;
-  background-color: #001E2A;
-  
-  
-}
-#linkf:hover{
-  color: #fa521c;
-  }
 
-#linkf{
+#linkf {
   text-decoration: none;
   display: flex;
+  justify-content: space-around;
   color: #fff;
   font-size: medium;
-  font-weight: 600;
-} 
-#footer {
-  display: flex;
-  align-items: flex-start;
-  margin-right: 5rem;
+  font-family: 'Caveat', cursive;
+}
+#linkf:hover {
+  color: #fa521c;
+}
+#sicon{
+  font-size: larger;
+  margin-right: 5px;
+}
+#sicon:hover{
+  transform: rotateZ('720deg');
+
 }

@@ -37,23 +37,24 @@ export default function Landing() {
       {/* footersection */}
       <footer>
         <div className="foot">
-          <Link to="" id="linkf">
-            <BsTwitter />
+          
+          <a href="https://twitter.com/sdajkuat" id="linkf" target="_blank">
+            <BsTwitter id="sicon"/>
             SDA church,JKUAT
-          </Link>
+          </a>
 
-          <Link to="" id="linkf">
-            <FaInstagramSquare />
+          <a href="" id="linkf" target="_blank">
+            <FaInstagramSquare  id="sicon"/>
             SDA Church,JKUAT
-          </Link>
-          <Link to="" id="linkf">
-            <BsFacebook />
+          </a>
+          <a href="https://www.facebook.com/jkusda/" id="linkf" target="_blank">
+            <BsFacebook id="sicon"/>
             SDA Church,JKUAT
-          </Link>
-          <Link to="https://www.jkusdachurch.org/" id="linkf">
-            <FaGlobeAfrica />
+          </a>
+          <a href="https://www.jkusdachurch.org/" id="linkf" target="_blank">
+            <FaGlobeAfrica id="sicon"/>
             JKUSDA Church
-          </Link>
+          </a>
         </div>
       </footer>
     </div>
