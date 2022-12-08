@@ -1,14 +1,16 @@
 // import "./App.css";
 
+import Rsvp from "./components/rsvpform/Rsvp";
 
-// import Choir from "./components/choirs/Choir";
-import Landing from "./pages/LandingPageFolder/Landing";
+
+
+// import Landing from "./pages/LandingPageFolder/Landing";
 
 function App() {
   return (
     <div className="App">
-      {/* <Choir/> */}
-      <Landing />
+      <Rsvp />
+      {/* <Landing /> */}
     </div>
   );
 }
